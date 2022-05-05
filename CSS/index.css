@@ -21,7 +21,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.6s;
+    transition: 1s;
     padding: 20px 60px 20px 120px;
     z-index: 100000;
 }
@@ -31,14 +31,31 @@ header.sticky{
     background: #fff;
 }
 
-header.navlogolink{
+header.sticky a.stickylogo{
     position: relative;
+    opacity: 100%;
+    transition: 1s;
+}
+
+header.sticky a.navlogolink{
+    opacity: 0%;
+}
+
+
+header a.stickylogo{
+    position: absolute;
     font-weight: 700;
-    color:#fff;
+    color:#000;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+    opacity: 0%;
+}
+
+
+header a.navlogolink{
+    position: relative;
 }
 
 header ul{
