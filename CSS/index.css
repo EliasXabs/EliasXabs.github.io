@@ -70,14 +70,21 @@ header ul li{
     list-style: none;
 }
 
+header ul li a:hover{
+    padding: 50px 28px 28px 28px;
+    background: orange;
+}
+
 header ul li a{
     position: relative;
-    margin: 0 15px;
+    margin: 0px;
     text-decoration: none;
     color:#fff;
     letter-spacing: 2px;
     font-weight: 500px;
-    transition: 0.6s;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: .5s linear;
 }
 .Banner{
     position: relative;
@@ -88,6 +95,13 @@ header ul li a{
 
 header.sticky ul li a{
     color: #000;
+}
+
+
+header.sticky ul li a:hover{
+    padding: 27.5px;
+    color: #fff;
+    background: #000;
 }
 
 section{
