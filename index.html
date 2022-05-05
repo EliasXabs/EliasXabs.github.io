@@ -2,8 +2,45 @@
 <html>
     <head>
 
+        <!--
+            Meta characters to provide search engines information.
+        -->
+        
+        <meta charset="utf-8">  
+        <meta name="keywords" content="Elias abou samra, EliasXabs">
+        <meta name="description" content="Personal Website">
+        <meta name="author" content="EliasXabs">
+        <meta name="refresh" content="5">
+
+        <title>EliasXabs ● Home</title>
+
+        <link rel="stylesheet" href="/Personal website/CSS/index.css">
+
     </head>
+
     <body>
-        <H1>This is my first commit</H1>
+        <header>
+            <a href="index.html" class = "navlogolink"><img src="/Personal website/IMG/EliasXabs-NOBG.png" alt="EliasXabs" class = "navlogoimg"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Hobbies</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <section class="Banner">
+            <script type="text/javascript">
+                window.addEventListener("scroll", function(){
+                    var header = document.querySelector("header");
+                    header.classList.toggle("sticky", window.scrollY > 0);
+                })
+            </script>
+        </section>
+        <main>
+            hello
+        </main>
     </body>
 </html>
