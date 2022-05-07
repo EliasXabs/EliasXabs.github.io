@@ -9,7 +9,8 @@ body{
     background: -webkit-linear-gradient(to top left, #cd00d0, #5d00ff); /* For Safari 5.1 to 6.0 */  
     background: -o-linear-gradient(to top left, #cd00d0, #5d00ff); /* For Opera 11.1 to 12.0 */  
     background: -moz-linear-gradient(to top left, #cd00d0, #5d00ff); /* For Firefox 3.6 to 15 */  
-    background: linear-gradient(to top left, #cd00d0, #5d00ff); /* Standard syntax (must be last) */ 
+    background: linear-gradient(to top left, #cd00d0, #5d00ff); /* Standard syntax (must be last) */
+    position: flex;
 }
 
 header{
