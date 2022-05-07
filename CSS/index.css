@@ -103,6 +103,10 @@ header.sticky ul li a:hover{
     background: #000;
 }
 
+header.abovef1{
+    min-height:200px;
+}
+
 footer{
     min-height: 500px;
 }
