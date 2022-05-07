@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    min-height: 100vh;
+    min-height: 1em;
     background-repeat: no-repeat;
     background: -webkit-linear-gradient(to top left, #cd00d0, #5d00ff); /* For Safari 5.1 to 6.0 */  
     background: -o-linear-gradient(to top left, #cd00d0, #5d00ff); /* For Opera 11.1 to 12.0 */  
@@ -22,12 +22,12 @@ header{
     justify-content: space-between;
     align-items: center;
     transition: 1s;
-    padding: 20px 60px 20px 120px;
+    padding: 1.25em 3.75em 1.25em 7.5em;
     z-index: 100000;
 }
 
 header.sticky{
-    padding: 10px 60px 10px 120px;
+    padding: 0.625em 3.75em 0.625em 7.5em;
     background: #fff;
 }
 
@@ -71,19 +71,19 @@ header ul li{
 }
 
 header ul li a:hover{
-    padding: 50px 28px 28px 28px;
+    padding: 3.125em 1.75em 1.75em 1.75em;
     background: orange;
 }
 
 header ul li a{
     position: relative;
-    margin: 0px;
+    margin: 0em;
     text-decoration: none;
     color:#fff;
-    letter-spacing: 2px;
-    font-weight: 500px;
-    padding: 10px 15px;
-    border-radius: 10px;
+    letter-spacing: 0.125em;
+    font-weight: 500;
+    padding: 0.625em 0.9375em;
+    border-radius: 0.625em;
     transition: .5s linear;
 }
 .Banner{
@@ -99,7 +99,7 @@ header.sticky ul li a{
 
 
 header.sticky ul li a:hover{
-    padding: 27.5px;
+    padding: 1.71875em;
     color: #fff;
     background: #000;
 }
