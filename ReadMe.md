@@ -8,6 +8,8 @@ This design might not be the final design, but it is the design im going to star
 
 ![Preview](Preview/Images/Portfolio%20Website.png)
 
+### [Figma File preview](Preview/FigmaPreview.fig)
+
 ## Technologies
 - HTML
 - CSS
