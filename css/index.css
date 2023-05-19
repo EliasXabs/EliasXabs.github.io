@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block; /* Change display to block */
+    background-color: white; /* Add a background color to the navbar */
+    padding: .75em 3.75em; /* Adjust the padding as needed */
+    z-index: 1;
+    transition: 1s
+  }
+  
+
+.navbar .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center;
+    flex-grow: 1; /* Expand the navbar-menu to fill available space */
+  }
+  
+  .navbar .navbar-menu .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1E1E1E;
+    text-decoration: none;
+  }
+  
+  .navbar .navbar-menu li {
+    margin: 0 10px; /* Add spacing between items */
+  }
+  
+  .navbar .navbar-menu li a {
+    text-decoration: none;
+    color: #1E1E1E;
+  }
+
+
+.sticky {
+    background-color: #1E1E1E;
+}
+
+.sticky .navbar-menu li a {
+    text-decoration: none;
+    color: white;
+  }
